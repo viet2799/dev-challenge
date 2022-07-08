@@ -1,0 +1,128 @@
+@import url(base.css);
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+.width-100 {
+    width: 100%;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header {
+    width: 100%;
+    padding-top: 60px;
+}
+.avata {
+    padding-bottom: 12px;
+}
+.avata-img {
+    height: 156px;
+    width: 156px;
+    border-radius: 16px;
+}
+.name {
+    padding-bottom: 8px;
+}
+.name-text {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #4e5150;
+}
+.country {
+    padding-bottom: 24px;
+}
+.country-text {
+    color: #a9a9a9;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+}
+.des {
+    padding-bottom: 64px;
+}
+.size-of-title {
+    max-height: 67px;
+    max-width: 100px;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    background-color: #e5e5e5;
+    margin-left: 24px;
+}
+.number {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Montserrat;
+    line-height: 22px;
+    padding-top: 15px;
+    padding-bottom: 3px;
+}
+.number-title {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #bdbdbd;
+    padding-bottom: 16.66px;
+}
+main {
+    max-width: 980px;
+}
+.header-content {
+    padding-bottom: 32px;
+}
+.header-content-left {
+    height: 299px;
+    width: 299px;
+    border-radius: 12px;
+    margin-right: 32px;
+}
+.header-content-right {
+    height: 299px;
+    width: 629px;
+    border-radius: 12px;
+}
+.body-header {
+}
+.body-top {
+    width: 627px;
+    height: 299px;
+    border-radius: 12px;
+    margin-bottom: 29px;
+}
+.bottom-left {
+    height: 299px;
+    width: 299px;
+    border-radius: 12px;
+    margin-right: 30px;
+}
+.bottom-right {
+    height: 299px;
+    width: 299px;
+    border-radius: 12px;
+}
+.body-header-right {
+    height: 630px;
+    width: 297px;
+    border-radius: 12px;
+    margin-left: 32px;
+}
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 134px;
+    padding-bottom: 24px;
+}

@@ -30,6 +30,9 @@ header {
 }
 .header-img {
     padding-right: 12px;
+    width: auto;
+    height: min-content;
+    padding-top: 4px;
 }
 .des {
     max-width: 592px;
@@ -149,6 +152,7 @@ span {
     max-width: 528px;
     padding-top: 4px;
     padding-left: 17px;
+    line-height: 24px;
 }
 .source {
     font-size: 16px;
