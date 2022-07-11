@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Lora;
+    src: url(../Font/static/Lora-Regular.ttf);
+}
+
+@font-face {
+    font-family: CrimsonPro;
+    src: url(../Font/static/CrimsonPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../Font//static/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Playfair;
+    src: url(../Font//static/PlayfairDisplay-Regular.ttf);
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.w-100 {
+    width: 100%;
+}
+/* fallback */
+@font-face {
+    font-family: "Material Icons";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v134/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format("woff2");
+}
+
+.material-icons {
+    font-family: "Material Icons";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+}

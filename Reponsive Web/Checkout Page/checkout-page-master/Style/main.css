@@ -1,0 +1,212 @@
+@import url(base.css);
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header {
+    color: #4e5150;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: Montserrat;
+    padding-top: 64px;
+    padding-bottom: 50px;
+    padding-left: 470px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info {
+    width: 465px;
+    height: 800px;
+}
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #333333;
+    padding-bottom: 15px;
+}
+label {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #4f4f4f;
+}
+.input {
+    position: relative;
+    padding-top: 7px;
+}
+input {
+    height: 56px;
+    width: 413px;
+    border-radius: 12px;
+    border: none;
+    border: 1px solid #828282;
+    outline: none;
+    padding-left: 52px;
+}
+input::placeholder {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #4f4f4f;
+}
+.icon {
+    position: absolute;
+    top: 25px;
+    left: 14px;
+    color: #828282;
+}
+.phone {
+    padding-top: 20px;
+}
+.address {
+    padding-top: 20px;
+}
+.city {
+    padding-top: 13px;
+}
+
+.last-input {
+    display: flex;
+    padding-top: 15px;
+}
+.country {
+    margin-right: 30px;
+}
+.input-mini {
+    height: 56px;
+    width: 165px;
+    border-radius: 12px;
+    border: none;
+    border: 1px solid #828282;
+    outline: none;
+    padding-left: 52px;
+}
+.save {
+    padding-top: 20px;
+}
+.checkbox {
+    height: 21px;
+    width: 21px;
+    border-radius: 4px;
+}
+.checkbox-title {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #4f4f4f;
+}
+.btn {
+    text-align: right;
+}
+button {
+    width: 166px;
+    height: 54px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 25px;
+    background-color: #f2994a;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #ffffff;
+}
+
+.product {
+    height: 535px;
+    width: 383px;
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    margin-left: 113px;
+    /* display: flex;
+    justify-content: center; */
+}
+.product-elmt {
+    display: flex;
+    padding-top: 33px;
+    padding-left: 30px;
+}
+img {
+    height: 135px;
+    width: 135px;
+    border-radius: 13px;
+    margin-right: 22px;
+}
+.product-name {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Montserrat;
+    padding-bottom: 6px;
+}
+.price {
+    display: flex;
+    padding-bottom: 35px;
+}
+.new-price {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #f2994a;
+}
+.last-price {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #4e5150;
+    text-decoration: line-through;
+    padding-left: 10px;
+}
+.amount {
+    width: 135px;
+    height: 52px;
+    border-radius: 12px;
+    border: 1px solid #828282;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 17px;
+}
+.number {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+.hr {
+    margin-top: 95px;
+}
+hr {
+    width: 327.06px;
+    color: #bdbdbd;
+}
+.ship {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.amouts {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+footer {
+    padding-top: 160px;
+    padding-bottom: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Montserrat;
+    color: #bdbdbd;
+}
