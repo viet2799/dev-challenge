@@ -1,0 +1,109 @@
+@import url(base.css);
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+.container {
+    width: 100%;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 42px 56px 96px 52px;
+}
+.header-title {
+    font-size: 36px;
+    font-weight: 800;
+    font-family: Heebo;
+}
+a {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Poppins;
+    text-decoration: none;
+    color: #333333;
+    padding-left: 60px;
+}
+.bot-header {
+    padding-left: 277px;
+    padding-bottom: 42px;
+}
+.question {
+    font-size: 18px;
+    color: #2d9cdb;
+    padding: 0;
+    padding-bottom: 16px;
+}
+.services {
+    height: 144px;
+    width: 543px;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: Poppins;
+}
+.banner {
+    width: calc(100% - 108px);
+    height: 354px;
+    border-radius: 18px;
+    margin-left: 52px;
+}
+.des {
+    padding-left: 277px;
+    padding-top: 42px;
+    padding-bottom: 200px;
+}
+.des-title {
+    width: 366px;
+    height: 141px;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: Poppins;
+    padding-bottom: 42px;
+}
+.des-main {
+    width: 366px;
+    height: 137px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Poppins;
+    padding-bottom: 42px;
+}
+.des-contact {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.label-contact {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Poppins;
+}
+.email {
+    height: 57px;
+    width: 329px;
+    border-radius: 12px;
+    padding-left: 21px;
+    border: none;
+    outline: none;
+    background-color: #f2f2f2;
+}
+input::placeholder {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #bdbdbd;
+}
+button {
+    height: 49px;
+    width: 94px;
+    border-radius: 12px;
+    background-color: #2d9cdb;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 26px;
+    left: 251px;
+}
