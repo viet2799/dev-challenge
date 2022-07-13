@@ -107,3 +107,48 @@ button {
     top: 26px;
     left: 251px;
 }
+main {
+    width: calc(100% - 108px);
+}
+.demand-title {
+    width: 346px;
+    height: 108px;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: Poppins;
+    padding-bottom: 42px;
+    margin-left: 165px;
+}
+.option {
+}
+.UX {
+    width: 341px;
+    height: 422px;
+    border: 1px solid #2d9cdb;
+}
+.logo {
+    height: 67px;
+    width: 67px;
+    background-color: #2d9cdb;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon {
+    height: 27px;
+    width: 27px;
+    color: #fff;
+}
+.logo-title {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Poppins;
+}
+.logo-des {
+    width: 273px;
+    height: 96px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Poppins;
+}
